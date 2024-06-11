@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - v2
+  workflow_dispatch: # This allows you to run this workflow manually.
 
 jobs:
   publish-tauri:
